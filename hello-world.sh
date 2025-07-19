@@ -7,6 +7,6 @@ echo "London:    $(TZ='Europe/London' date +'%H:%M')"
 
 echo "Free memory: " `free -h | grep Mem | awk '{print $4}'`
 
-echo "Swap user: " `free -h | grep Mem | awk '{print $4}'
+echo "Swap usage: " `free -h | grep Mem | awk '{print $4}'`
 
 
